@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayali's AWS Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #020617;
+        }
+
+        h1 {
+            color: #38bdf8;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            background-color: #38bdf8;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            color: black;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #0ea5e9;
+        }
+
+        .card {
+            background-color: #1e293b;
+            padding: 20px;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 10px;
+            background-color: #020617;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🚀 Sayali's AWS Project</h1>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Welcome 👋</h2>
+        <p>This website is hosted on AWS S3 using Python automation (boto3).</p>
+    </div>
+
+    <div class="card">
+        <h3>Project Features</h3>
+        <p>✔ Static Website Hosting</p>
+        <p>✔ Automated Deployment</p>
+        <p>✔ Cloud-Based Storage</p>
+    </div>
+
+    <button onclick="showMessage()">Click Me 🚀</button>
+
+</div>
+
+<footer>
+    <p>Made by Sayali | AWS + Python Project</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("🎉 Congrats! Your AWS website is working perfectly!");
+    }
+</script>
+
+</body>
+</html>
